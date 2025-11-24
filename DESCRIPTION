@@ -1,8 +1,8 @@
 Package: Li6800fixer
 Type: Package
-Title: What the Package Does (Title Case)
+Title: fix 6800 files for conifer data
 Version: 0.1.0
-Author: Who wrote it
+Author: Takuro Nakata (sunpubio)
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
@@ -12,3 +12,4 @@ LazyData: true
 Imports: 
     dplyr,
     racir
+RoxygenNote: 7.2.3
