@@ -23,6 +23,7 @@ fixarea_6800 <- function(df, matched_area) {
       Ci = -((gtc - E / 2) * Ca - A) / (gtc + E / 2),
       PPFD = Qin,
       gsc = A / (Ca - Ci),
-      gsw = 1.6 * gsc
+      gsw = 1.6 * gsc,
+      hhmmss = hhmmss
     )
 }
