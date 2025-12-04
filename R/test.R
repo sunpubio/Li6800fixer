@@ -10,7 +10,7 @@ fixarea_6800 <- function(df, matched_area) {
   df |>
     dplyr::select(
       obs, A, Ci, CO2_r, CO2_s, Tleaf, E, gtc, Ca, S,
-      H2O_r, H2O_s, CorrFact, Flow, Qin, TleafCnd, K, Pa, ΔPacham, gbw
+      H2O_r, H2O_s, CorrFact, Flow, Qin, TleafCnd, K, Pa, ΔPacham, gbw, hhmmss
     ) |>
     dplyr::mutate(
       matched_area = matched_area,
