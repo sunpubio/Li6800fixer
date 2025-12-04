@@ -26,6 +26,8 @@ fixarea_6800 <- function(df, matched_area) {
       gsw = 2/((1/gtw-1/gbw)+sign(gtw)*sqrt((1/gtw-1/gbw)*(1/gtw-1/gbw)+4*K/((K+1)^2*(2*1/gtw*1/gbw-(1/gbw)^2)))),
       gtc = 1/((((K+1)/(gsw/1.6))+1/(gbw/1.37))+(K/((K+1/(gsw/1.6))+(K/(gbw/1.37))))),
       hhmmss = hhmmss
-    )
+    )|>
+    dplyr::select(!duplicated(names(.)))
+
 }
 
