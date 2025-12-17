@@ -53,6 +53,5 @@ fixarea_6800 <- function(df, matched_area) {
       ),
 
       hhmmss = hhmmss
-    ) |>
-    dplyr::select(-E_mol)   # 中間列は消しておく
+    )
 }
